@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_dialog_bg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <ImageButton
+            android:id="@+id/imageNoWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_nowifi"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"
+            android:layout_gravity="left|top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have no internet connection. Please make sure you are connected with the internet!"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you still want to continue? (not recommended: it can lead to errors)"
+            android:textSize="20sp"
+            android:textColor="@color/primary_dark" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clipToPadding="false"
+            >
+
+            <Button
+                android:id="@+id/closeApp_dialog_nowifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/background_button_dialog"
+                android:text="Stop App"
+                android:padding="7dp"/>
+
+            <Button
+                android:id="@+id/continueButton_dialog_nowifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_button_dialog"
+                android:text="Yes" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

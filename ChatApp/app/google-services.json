@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966098077524",
+    "project_id": "chat-app-8526c",
+    "storage_bucket": "chat-app-8526c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966098077524:android:c3c1c22fe9b8d8188a2ac1",
+        "android_client_info": {
+          "package_name": "com.jonasgaiser.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCtTkn0jkiAcu2AbigCQuLOHYgfUkk-us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
